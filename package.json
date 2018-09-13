@@ -1,0 +1,24 @@
+{
+  "name"           : "c64js",
+  "version"        : "0.0.0",
+  "license"        : "MIT",
+  "scripts"        : {
+    "start:dev": "./node_modules/.bin/webpack-dev-server --hot"
+  },
+  "private"        : true,
+  "dependencies"   : {},
+  "devDependencies": {
+    "@types/node"              : "^6.0.117",
+    "clean-webpack-plugin"     : "^0.1.19",
+    "handlebars"               : "^4.0.12",
+    "handlebars-loader"        : "^1.7.0",
+    "html-webpack-plugin"      : "^2.30.1",
+    "ts-loader"                : "^3.5.0",
+    "ts-node"                  : "~4.1.0",
+    "tslint"                   : "~5.9.1",
+    "typescript"               : "^2.9.2",
+    "webpack"                  : "^3.12.0",
+    "webpack-dev-server"       : "^2.11.3",
+    "webpack-livereload-plugin": "^1.2.0"
+  }
+}

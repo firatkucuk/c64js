@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>C64JS Commodore 64 Emulator</title>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="320" height="200" style="border:1px solid #d3d3d3;">
+      Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <div>
+      <!--<button onclick="new Emulator().run()">Run</button>-->
+    </div>
+    <script src="../dist/bundle.js"></script>
+    <script>
+      window.onload = function () {
+        console.log(Emulator);
+      };
+    </script>
+  </body>
+</html>
